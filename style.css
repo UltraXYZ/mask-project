@@ -1,0 +1,27 @@
+h3{
+    font-size: 30px;
+
+}
+
+ .btn-success:hover{
+    background-color: crimson;
+}
+
+canvas{
+    animation-name: clownNose;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes clownNose{
+    0%{box-shadow: 8px 8px 38px blue ;}
+    20%{box-shadow: 8px 8px 38px crimson ;}
+    40%{box-shadow: 8px 8px 38px greenyellow ;}
+    60%{box-shadow: 8px 8px 38px mediumspringgreen ;}
+    80%{box-shadow: 8px 8px 38px orangered ;} 
+}
+
+body{
+    background-size: cover;
+    background-position: center;
+}
